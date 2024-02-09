@@ -1,7 +1,7 @@
 .logo {
   border: black;
   border-radius: 95px;
-  height: auto;
+  height: 85%;
   padding: auto;
   margin: auto;
 }
@@ -42,13 +42,11 @@ nav {
 section {
   background-color: #76453b;
   height: 800px;
-  margin-bottom: 15px;
+  margin-bottom: 10%;
 }
 footer {
   background-color: #a9b388;
   height: 100px;
-  margin-top: 65px;
-  margin-bottom: 15px;
 }
 
 footer div {
@@ -81,6 +79,7 @@ a {
 
 .menu {
   padding-bottom: 15px;
+  height: 90%;
   size: page;
   opacity: none;
 }
@@ -106,7 +105,7 @@ nav a {
 .collage img {
   opacity: 1;
   margin-bottom: 1px;
-  object-fit: scale-down;
+  height: 90%;
   border-radius: 15px;
 }
 
@@ -126,15 +125,14 @@ nav a {
 
 div img {
   border-radius: 45px;
-  object-fit: contain;
+  text-align: center;
   padding: 15px 10px 15px 10px;
 }
 
 .map {
   display: block;
-  justify-items: center;
-  max-width: 960px;
-  max-height: 480px;
-  width: auto;
-  height: auto;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: 80%;
 }
