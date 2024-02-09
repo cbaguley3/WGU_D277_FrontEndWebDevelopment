@@ -1,0 +1,140 @@
+.logo {
+  border: black;
+  border-radius: 95px;
+  height: auto;
+  padding: auto;
+  margin: auto;
+}
+
+body {
+  background-color: #f8fae5;
+  background-image: url(Images/backgroundcafe.jpg);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #5f6f52;
+  height: 200px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+nav {
+  background-color: #b19470;
+  height: 40px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1px;
+}
+section {
+  background-color: #76453b;
+  height: 800px;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #a9b388;
+  height: 100px;
+  margin-top: 65px;
+  margin-bottom: 15px;
+}
+
+footer div {
+  padding-top: 45px;
+  text-align: center;
+}
+
+section h1 {
+  padding-top: 10px;
+  opacity: 1;
+}
+
+section p {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1px;
+}
+
+a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.menu {
+  padding-bottom: 15px;
+  size: page;
+  opacity: none;
+}
+
+.navbar-links {
+  padding-top: 12px;
+  text-align: center;
+  width: 100%; /* Add this line */
+}
+
+/* Optionally adjust padding or margin if necessary */
+.navbar-links a {
+  padding: 0 10px; /* Adjust as needed */
+}
+
+nav a {
+  text-decoration: none;
+  font-size: larger;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.collage img {
+  opacity: 1;
+  margin-bottom: 1px;
+  object-fit: scale-down;
+  border-radius: 15px;
+}
+
+.custom-button {
+  background-color: #5f6f52; /* Button background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding to adjust button size */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+.custom-button:hover {
+  background-color: #4b5e40; /* Button background color on hover */
+}
+
+div img {
+  border-radius: 45px;
+  object-fit: contain;
+  padding: 15px 10px 15px 10px;
+}
+
+.map {
+  display: block;
+  justify-items: center;
+  max-width: 960px;
+  max-height: 480px;
+  width: auto;
+  height: auto;
+}
