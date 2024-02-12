@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/SCflag.png" alt="" /> South Carolina, United States
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="charleston.html">Charleston</a>
+      <a href="columbia.html">Columbia</a>
+      <a href="myrtle-beach.html">Myrtle Beach</a>
+    </nav>
+    <div>
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <label for="firstName">First Name:</label><br />
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Enter your first name"
+        /><br />
+
+        <label for="lastName">Last Name:</label><br />
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Enter your last name"
+        /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        /><br />
+
+        <label for="confirmEmail">Confirm Email Address:</label><br />
+        <input
+          type="email"
+          id="confirmEmail"
+          name="confirmEmail"
+          placeholder="Confirm your email"
+        /><br />
+
+        <label for="question">Your Question:</label><br />
+        <textarea
+          id="question"
+          name="question"
+          rows="4"
+          placeholder="Ask your question here"
+        ></textarea
+        ><br />
+
+        <input type="button" value="Submit" />
+      </form>
+
+      <script>
+        document
+          .getElementById("confirmEmail")
+          .addEventListener("input", function () {
+            var email = document.getElementById("email").value;
+            var confirmEmail = document.getElementById("confirmEmail").value;
+
+            if (email !== confirmEmail) {
+              document
+                .getElementById("confirmEmail")
+                .setCustomValidity("Emails do not match");
+            } else {
+              document.getElementById("confirmEmail").setCustomValidity("");
+            }
+          });
+      </script>
+    </div>
+  </body>
+</html>
